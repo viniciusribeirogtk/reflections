@@ -1,0 +1,63 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Sometimes without an software to see the difference is tedious or difficult to see the difference of files
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because i'll get my differences in a easy way getting change history
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    when you have manually commit you have certain of your changes and will more easy to search a previously commit. the cons is if you have a breakout and ou don't save your file you'll loose if you don't commit 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because is that the propose of a control system, manipulate multiple files, other way, google docs is to manipulate an single file
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log you'll see the commit history, with this id of commit the git diff will show the difference of this commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    knowing as it can be revert by history of commits
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    try version my projects and see the history of my commits
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	
+	Because, if i have a trouble on a codeline, i'll get my code history to help what modification that broke my code, is more easy to find on get that action only reading those lines of code
+
+
+Repositório (coleção de arquivos no GIT)
+
+git config --global color.ui auto
+
+b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+
+f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+
+
+mv Documentos/Desenvolvimento/git-configs/git-completion.bash  git-completion.bash
+
+mv Documentos/Desenvolvimento/git-configs/git-prompt.sh git-prompt.sh
+
+git config --global core.editor "subl -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
