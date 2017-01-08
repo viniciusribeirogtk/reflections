@@ -14,3 +14,5 @@ git config --global user.name "Vinicius Ribeiro"
 
 #Mostra lista de configuração
 git config --list
+
+# git diff sem argumentos será comparado working directory com o staging area
