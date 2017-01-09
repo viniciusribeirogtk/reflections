@@ -8,4 +8,20 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	Using command git diff --staged I et all differences of my staged area to repository
+	Using command git diff --staged I get all differences of my staged area to repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches will be helpful when I want to test an modification without modifying the original project, something like an test or other way of the original project.
+
+How do the diagrams help you visualize the branch structure?
+
+	Showing all history of commits 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging branches will mergin commits of this branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros is more easy git making this job when the lines not conflicting. Manually merge can make the developer real think about the code send to master.
