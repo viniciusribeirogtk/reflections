@@ -16,3 +16,6 @@ git config --global user.name "Vinicius Ribeiro"
 git config --list
 
 # git diff sem argumentos será comparado working directory com o staging area
+# git diff --staged compara o repository com stagind area
+# git reset --hard apaga todas as alterações realizadas na working directory
+# e na staging area
